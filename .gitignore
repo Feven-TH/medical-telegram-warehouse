@@ -1,0 +1,10 @@
+.env
+.venv
+__pycache__/
+data
+logs
+kara_session.session
+target
+.user.yml
+__pycache__
+profiles.yml
