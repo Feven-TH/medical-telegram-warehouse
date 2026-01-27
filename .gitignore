@@ -8,3 +8,4 @@ target
 .user.yml
 __pycache__
 profiles.yml
+yolov8n.pt
