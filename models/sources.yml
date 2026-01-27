@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: yolo_data
+    schema: public
+    description: "Object detection results from YOLOv8 processed on Telegram images."
+    tables:
+      - name: detections
+        description: "Raw detections including labels, confidence, and bounding boxes."
