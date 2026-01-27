@@ -1,0 +1,21 @@
+# Scraping & Data Handling
+telethon
+pandas
+python-dotenv
+
+# Transformation & Database
+dbt-postgres
+psycopg2-binary
+
+# Enrichment (AI)
+ultralytics
+
+# API
+fastapi
+uvicorn
+sqlalchemy
+
+# Orchestration
+dagster
+dagster-webserver
+dagster-dbt
