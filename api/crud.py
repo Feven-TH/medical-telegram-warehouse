@@ -2,7 +2,6 @@ from pydantic import BaseModel
 from datetime import datetime
 from typing import List, Optional
 
-# This is the specific class the error is complaining about!
 class ProductCount(BaseModel):
     object_detected: str
     count: int
@@ -10,14 +9,14 @@ class ProductCount(BaseModel):
 class ChannelActivity(BaseModel):
     channel_name: str
     message_count: int
-    last_post: Optional[datetime]
+    last_post: datetime
 
 class MessageResult(BaseModel):
     message_id: str
     channel_name: str
-    message_text: Optional[str] = None
-    object_detected: Optional[str] = None
-    confidence: Optional[float] = None
+    message_text: Optional[str]
+    object_detected: Optional[str]
+    confidence: Optional[float]
 
 class VisualStats(BaseModel):
     channel_name: str
