@@ -9,3 +9,10 @@ target
 __pycache__
 profiles.yml
 yolov8n.pt
+*.session
+
+# Dagster local state and temporary files
+dagster_home/
+.dagster/
+.tmp_dagster*
+storage/
